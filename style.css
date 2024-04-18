@@ -99,8 +99,9 @@ canvas{
     top: 55%;
     font-family: gilroy;
     font-weight: 400;
-    color: #7c7c7c;
+    color: #010000;
     left: 5%;
+    font-size:18px;
 }
 #page>h4{
     position: absolute;
@@ -172,4 +173,16 @@ canvas{
 #page3>#text3>h1{
     font-size: 70px;
 
+}
+
+.custom-button {
+    width: 65px; /* 按钮宽度 */
+    height: 65px; /* 按钮高度 */
+    border-radius: 1px; /* 圆角大小 */
+    background-image: url('linkedin.png'); /* 图片 URL */
+    background-size: cover; /* 图片填充方式 */
+    background-position: center; /* 图片位置 */
+    border: none; /* 移除默认边框 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+    margin-top: 10px;
 }

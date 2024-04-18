@@ -443,3 +443,6 @@ function locomotive() {
       scroller:`#main`
     }
   })
+  document.getElementById("custom-button").addEventListener("click", function() {
+    window.location.href = "https://www.linkedin.com/in/wee-yuen-tiong-02a796197"; // 改变当前页面的 URL
+});
